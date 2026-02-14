@@ -12,8 +12,8 @@ export const projects = [
   {
     name: "My CV",
     icon: pdf,
-    link: "../public/Ahmed-Nader-RS.pdf",
-    repo: "../public/Ahmed-Nader-RS.pdf",
+    link: "/AhmedNR-XP-Portfolio/src/assets/Ahmed-Nader-RS.pdf",
+    repo: "/AhmedNR-XP-Portfolio/src/assets/Ahmed-Nader-RS.pdf",
   },
   {
     name: "E-Commerce",
