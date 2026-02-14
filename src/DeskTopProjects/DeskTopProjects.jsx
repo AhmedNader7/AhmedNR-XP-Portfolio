@@ -17,7 +17,7 @@ export default function DeskTopProjects() {
   }, []);
 
   return (
-    <div className="p-2 h-full flex flex-col flex-wrap">
+    <div className="p-2 h-full flex flex-col flex-wrap pb-10">
       {projects.map((project, index) => (
         <div
           key={index}
