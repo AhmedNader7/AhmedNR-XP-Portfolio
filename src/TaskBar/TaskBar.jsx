@@ -22,7 +22,7 @@ export default function TaskBar() {
   return (
     <>
       <StartList display={open} closeList={closeList} />
-      <div className="h-7.5 w-full absolute bottom-0 flex justify-between items-center bg-[url(/taskBar/taskbar-bg.webp)]">
+      <div className="h-7.5 w-full fixed bottom-0 flex justify-between items-center bg-[url(/taskBar/taskbar-bg.webp)]">
         <button
           className="w-24 h-7.5 cursor-pointer bg-[url(/taskBar/start-button.webp)] bg-cover"
           onClick={() => setOpen((prev) => !prev)}
