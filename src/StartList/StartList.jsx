@@ -21,7 +21,7 @@ export default function StartList({ display, closeList }) {
   return (
     <>
       <ul
-        className={`bg-white absolute left-40 bottom-60  lg:left-70 lg:bottom-65 z-10 p-1 flex flex-col gap-1 lg:gap-2 ${displayList ? "block" : "hidden"}`}
+        className={`bg-white fixed left-40 bottom-60  lg:left-70 lg:bottom-65 z-10 p-1 flex flex-col gap-1 lg:gap-2 ${displayList ? "block" : "hidden"}`}
         onMouseEnter={blockListSkills}
         onMouseLeave={blockListSkills}
       >
