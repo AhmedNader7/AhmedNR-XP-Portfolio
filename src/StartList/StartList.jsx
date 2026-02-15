@@ -35,7 +35,7 @@ export default function StartList({ display, closeList }) {
         })}
       </ul>
       <div
-        className={`absolute bottom-7.5 bg-white w-75 h-100 lg:h-112.5 rounded-t-lg ${display ? "block" : "hidden"}`}
+        className={`fixed bottom-7.5 bg-white w-75 h-100 lg:h-112.5 rounded-t-lg ${display ? "block" : "hidden"}`}
       >
         <nav className="bg-[url(/taskBar/startMenuNav.png)] h-15 bg-cover rounded-t-lg">
           <div className="flex items-center">
